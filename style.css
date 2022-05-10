@@ -1,0 +1,48 @@
+ul {
+    list-style: none;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    float: left;
+    margin: 15px;
+}
+
+ul li a {
+    text-decoration: none;
+    background-color: chocolate;
+    color: white;
+    padding: 10px 10px;
+    display: inline-block;
+    width: 120px;
+    text-align: center;
+    border: 1px solid #fff;
+    border-radius: 15px;
+}
+
+ul li ul {
+    display: none;
+    
+}
+
+ul li ul li {
+    float: none;
+    margin: 0;
+}
+
+ul li:hover > ul{
+    display: block;
+}
+
+ul li ul li ul {
+    margin-left: 141px;
+    margin-top: -41px;
+}
+
+a:hover {
+    color: chocolate;
+    background-color: #fff;
+    border: 1px solid chocolate;
+}
