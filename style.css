@@ -1,3 +1,15 @@
+* {
+    margin: 0;
+}
+
+.container {
+    height: 100px;
+    width: 100%;
+    background-color: rgb(59, 77, 100);
+    position: fixed;
+    z-index: 10;
+}
+
 ul {
     list-style: none;
     position: absolute;
@@ -7,7 +19,8 @@ ul {
 
 ul li {
     float: left;
-    margin: 15px;
+    margin: 25px 20px;
+    
 }
 
 ul li a {
@@ -18,7 +31,7 @@ ul li a {
     display: inline-block;
     width: 120px;
     text-align: center;
-    border: 1px solid #fff;
+    border: 1px solid rgb(255, 255, 255);
     border-radius: 15px;
 }
 
@@ -45,4 +58,22 @@ a:hover {
     color: chocolate;
     background-color: #fff;
     border: 1px solid chocolate;
+}
+
+main {
+    padding-top: 100px;
+}
+
+h1 {
+    position: sticky;
+    top: 100px;
+    background-color: rgb(216, 194, 179);
+    color: rgb(59, 77, 100);
+    margin: 0px;
+    padding: 10px;
+    font-size: 28px;
+}
+
+p {
+    padding: 10px;
 }
